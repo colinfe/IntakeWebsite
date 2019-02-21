@@ -1,0 +1,139 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header, body {
+	background-image: url("img/background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh
+}
+
+.menu {
+	width: 100%;
+	background-color: black;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	max-width: 600px;
+    margin: 0 auto;
+}
+
+ul li {
+	float: left;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+}
+
+ul li:hover {
+	background-color: rgb(99, 103, 109, .8);
+}
+
+ul li a {
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+ul li ul li:hover {
+	background-color: #8993a3;
+}
+
+ul li ul li {
+	display: none;
+	background-color: transparent;
+	position: relative;
+}
+
+ul > li > ul > li {
+	background-color: rgb(137, 147, 163, .8);
+}
+
+ul li ul li a{
+	opacity: 1;
+}
+
+ul li:hover ul li {
+	display: block;
+}
+
+.top {
+	margin: 0px;
+	padding: 0px;	
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.top h1{
+	font-size: 40px;
+	color: black;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'arial';
+	position: absolute;
+	top: 150px;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%); 
+	opacity: 0.9;
+}
+
+.top p{
+	font-size: 20px;
+	color: black;
+	background-color: rgb(137, 147, 163, .6);
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'arial';
+	position: absolute;
+	top: 250px;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.top .eigenschappen{
+	font-size: 40px;
+	color: black;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'arial';
+	position: absolute;
+	top: 400px;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%); 
+	opacity: 0.9;
+}
+
+.top .eigenschappenInfo{
+	font-size: 20px;
+	color: black;
+	background-color: rgb(137, 147, 163, .6);
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'arial';
+	position: absolute;
+	top: 510px;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.top .softwareInfo a {
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 1400px) {
+	
+}

@@ -1,0 +1,116 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	background-image: url("img/background.jpg");
+	background-size: cover;
+	height: 100vh;
+}
+
+.menu {
+	width: 100%;
+	background-color: black;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	max-width: 600px;
+	opacity: 0.99;
+    margin: 0 auto;
+}
+
+ul li {
+	float: left;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #474849;
+	font-size: 20px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+ul li a:hover {
+	background-color: #71477D;
+}
+
+ul li ul li {
+	display: none;
+	position: relative;
+}
+
+ul li:hover ul li {
+	display: block;
+}
+
+.top {
+	margin: 0px;
+	padding: 0px;	
+}
+
+.top h1{
+	font-size: 100px;
+	color: white;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'arial';
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%); 
+	opacity: 0.9;
+}
+
+.top .p{
+	font-size: 30px;
+	color: white;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'arial';
+	position: absolute;
+	top: 250px;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.top .P{
+	font-size: 30px;
+	color: white;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'arial';
+	position: absolute;
+	top: 300px;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.top .info{
+	font-size: 30px;
+	color: white;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'arial';
+	position: absolute;
+	top: 400px;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+
+
+
+
